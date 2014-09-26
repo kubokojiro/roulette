@@ -32,7 +32,7 @@
     CALayer *layer2 = imageView2.layer;
     
     CABasicAnimation* animation2 = [CABasicAnimation animationWithKeyPath:@"transform.rotation"];
-    animation2.toValue = [NSNumber numberWithFloat:M_PI / 1.0];
+    animation2.toValue = [NSNumber numberWithFloat:M_PI / -1.0];
     animation2.duration = 5;           // 0.5秒で90度回転
     animation2.repeatCount = MAXFLOAT;   // 無限に繰り返す
     animation2.cumulative = YES;         // 効果を累積
@@ -70,6 +70,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 -(IBAction)start{
     CALayer *layer = imageView.layer;
     
@@ -114,17 +116,22 @@
     NSLog(@"%f %f", angleLarge, angleArrow);
     
     
-    
+    //numberには矢印の角度から円盤の回転角度を引いた数
     float number = angleArrow - angleLarge;
+    //→計算した結果、0より大きいか小さいかで
+    
     if (number > M_PI) {
-        number = 2*M_PI-number;
+        //
+        number = -1*(2*M_PI-number);
          NSLog(@"%f", number);
-    }
-    if (number < -1*M_PI) {
-        number = -1*number-M_PI;
+    }else if (number < M_PI) {
+        //
+        number = -1*number;
          NSLog(@"%f", number);
-    }
-    else{
+        
+    }else if(number ){
+        //
+    }else{
          NSLog(@"%f", number);
     }
     
@@ -145,13 +152,13 @@
         numbers = 66;
     }else if (1.84705880<=number&&number<2.21647056) {
         //7
-        numbers = 44;////////////////
+        numbers = 77;////////////////
     }else if (2.21647056<=number&&number<2.58588232) {
         //8
-        numbers = 33;////////////////
+        numbers = 88;////////////////
     }else if (2.58588232<=number&&number<2.95529408) {
         //9
-        numbers = 22;////////////////
+        numbers = 99;////////////////
     }else if (2.95529408<=number&&number<=3.14) {
         //1
         numbers = 11;////////////////
@@ -166,7 +173,7 @@
         numbers = 2;
     }else if (-1.10823528>=number&&number>-1.47764704) {
         //7
-        numbers = 3;
+        numbers = 7;
     }else if (-1.47764704>=number&&number>-1.84705880) {
         //6
         numbers = 4;
@@ -175,7 +182,7 @@
         numbers = 6;
     }else if (-2.21647056>=number&&number>-2.58588232) {
         //3
-        numbers = 7;
+        numbers = 3;
     }else if (-2.58588232>=number&&number>-2.95529408) {
         //2
         numbers = 9;
@@ -186,6 +193,8 @@
 
     }
     label.text=[NSString stringWithFormat:@"%d",numbers];
+    
+    
     /*
     for(int i = 0 ; i < 10 ; i = i + 1){
     [[NSRunLoop currentRunLoop]
