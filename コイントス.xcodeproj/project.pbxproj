@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B515C24F19D5743C0027E2A4 /* 背景ルーレット２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B515C24D19D5743C0027E2A4 /* 背景ルーレット２.jpg */; };
+		B515C25019D5743C0027E2A4 /* ルーレット-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B515C24E19D5743C0027E2A4 /* ルーレット-2.png */; };
+		B515C25219D574460027E2A4 /* 矢印改.png in Resources */ = {isa = PBXBuildFile; fileRef = B515C25119D574460027E2A4 /* 矢印改.png */; };
 		B5A8CD6D19544E7200966249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A8CD6C19544E7200966249 /* Foundation.framework */; };
 		B5A8CD6F19544E7200966249 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A8CD6E19544E7200966249 /* CoreGraphics.framework */; };
 		B5A8CD7119544E7200966249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A8CD7019544E7200966249 /* UIKit.framework */; };
@@ -21,11 +24,6 @@
 		B5A8CD8E19544E7200966249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A8CD7019544E7200966249 /* UIKit.framework */; };
 		B5A8CD9619544E7200966249 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5A8CD9419544E7200966249 /* InfoPlist.strings */; };
 		B5A8CD9819544E7200966249 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A8CD9719544E7200966249 /* _____Tests.m */; };
-		B5AE91E81991CF4B0009A17A /* ルーレット-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5AE91E71991CF4B0009A17A /* ルーレット-2.png */; };
-		B5AE91EC1991DA7A0009A17A /* 背景ルーレット２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5AE91EB1991DA7A0009A17A /* 背景ルーレット２.jpg */; };
-		B5AE91EE19930A570009A17A /* 木目３.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5AE91ED19930A570009A17A /* 木目３.jpg */; };
-		B5E13266198F2032000DEFDF /* ルーレット.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E13265198F2032000DEFDF /* ルーレット.png */; };
-		B5E13268198F203A000DEFDF /* 矢印改.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E13267198F203A000DEFDF /* 矢印改.png */; };
 		B5FC9F351994621000DA9DF6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC9F341994621000DA9DF6 /* icon.png */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B515C24D19D5743C0027E2A4 /* 背景ルーレット２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景ルーレット２.jpg"; sourceTree = "<group>"; };
+		B515C24E19D5743C0027E2A4 /* ルーレット-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ルーレット-2.png"; sourceTree = "<group>"; };
+		B515C25119D574460027E2A4 /* 矢印改.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "矢印改.png"; sourceTree = "<group>"; };
 		B5A8CD6919544E7200966249 /* コイントス.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "コイントス.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A8CD6C19544E7200966249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B5A8CD6E19544E7200966249 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,11 +60,6 @@
 		B5A8CD9319544E7200966249 /* コイントスTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "コイントスTests-Info.plist"; sourceTree = "<group>"; };
 		B5A8CD9519544E7200966249 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5A8CD9719544E7200966249 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
-		B5AE91E71991CF4B0009A17A /* ルーレット-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ルーレット-2.png"; path = "../../ルーレット-2.png"; sourceTree = "<group>"; };
-		B5AE91EB1991DA7A0009A17A /* 背景ルーレット２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "背景ルーレット２.jpg"; path = "../../背景ルーレット２.jpg"; sourceTree = "<group>"; };
-		B5AE91ED19930A570009A17A /* 木目３.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "木目３.jpg"; path = "../../木目３.jpg"; sourceTree = "<group>"; };
-		B5E13265198F2032000DEFDF /* ルーレット.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ルーレット.png"; path = "../../ルーレット.png"; sourceTree = "<group>"; };
-		B5E13267198F203A000DEFDF /* 矢印改.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "矢印改.png"; path = "../../矢印改.png"; sourceTree = "<group>"; };
 		B5FC9F341994621000DA9DF6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,17 +120,15 @@
 		B5A8CD7219544E7200966249 /* コイントス */ = {
 			isa = PBXGroup;
 			children = (
+				B515C25119D574460027E2A4 /* 矢印改.png */,
+				B515C24D19D5743C0027E2A4 /* 背景ルーレット２.jpg */,
+				B515C24E19D5743C0027E2A4 /* ルーレット-2.png */,
 				B5A8CD7B19544E7200966249 /* AppDelegate.h */,
 				B5A8CD7C19544E7200966249 /* AppDelegate.m */,
 				B5A8CD7E19544E7200966249 /* Main.storyboard */,
 				B5A8CD8119544E7200966249 /* ViewController.h */,
 				B5A8CD8219544E7200966249 /* ViewController.m */,
 				B5FC9F341994621000DA9DF6 /* icon.png */,
-				B5AE91EB1991DA7A0009A17A /* 背景ルーレット２.jpg */,
-				B5AE91E71991CF4B0009A17A /* ルーレット-2.png */,
-				B5E13265198F2032000DEFDF /* ルーレット.png */,
-				B5AE91ED19930A570009A17A /* 木目３.jpg */,
-				B5E13267198F203A000DEFDF /* 矢印改.png */,
 				B5A8CD8419544E7200966249 /* Images.xcassets */,
 				B5A8CD7319544E7200966249 /* Supporting Files */,
 			);
@@ -246,14 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5AE91EE19930A570009A17A /* 木目３.jpg in Resources */,
 				B5A8CD8519544E7200966249 /* Images.xcassets in Resources */,
 				B5FC9F351994621000DA9DF6 /* icon.png in Resources */,
-				B5E13266198F2032000DEFDF /* ルーレット.png in Resources */,
 				B5A8CD7719544E7200966249 /* InfoPlist.strings in Resources */,
-				B5E13268198F203A000DEFDF /* 矢印改.png in Resources */,
-				B5AE91E81991CF4B0009A17A /* ルーレット-2.png in Resources */,
-				B5AE91EC1991DA7A0009A17A /* 背景ルーレット２.jpg in Resources */,
+				B515C25219D574460027E2A4 /* 矢印改.png in Resources */,
+				B515C25019D5743C0027E2A4 /* ルーレット-2.png in Resources */,
+				B515C24F19D5743C0027E2A4 /* 背景ルーレット２.jpg in Resources */,
 				B5A8CD8019544E7200966249 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
